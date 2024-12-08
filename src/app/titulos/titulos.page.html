@@ -1,0 +1,41 @@
+<ion-content>
+  <ion-header>
+    <ion-toolbar color="secondary">
+      <ion-icon routerLink="/home" name="home"></ion-icon>
+      <!-- <ion-title routerLink="/home" class="toolbar-title">INICIO</ion-title> -->
+      <ion-title slot="end">TITULOS Y CERTIFICACIONES</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <!-- Galería de imágenes con display: flex para alinearlas en una fila -->
+    <div class="image-gallery">
+      <ion-card *ngFor="let image of images; let i = index">
+        <ion-card-content>
+          <!-- Imagen pequeña al principio, con un click para agrandar -->
+          <img
+            [src]="image"
+            alt="Imagen"
+            class="gallery-image"
+            (click)="toggleImageSize(i)"
+            [ngClass]="{'large-image': selectedImageIndex === i}"
+          />
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <!-- Imagen agrandada en un overlay -->
+    <div *ngIf="selectedImageIndex !== -1" class="overlay" (click)="closeImage()">
+      <img
+        [src]="images[selectedImageIndex]"
+        alt="Imagen Agrandada"
+        class="enlarged-image"
+        (click)="$event.stopPropagation()"  
+      />
+    </div>
+  </ion-content>
+</ion-content>
+
+
+
+

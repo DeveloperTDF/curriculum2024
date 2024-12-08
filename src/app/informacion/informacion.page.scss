@@ -1,0 +1,128 @@
+/* Centrar el contenido dentro de ion-content */
+.center-content {
+    display: flex;               /* Activar flexbox */
+    justify-content: center;     /* Centra horizontalmente */
+    align-items: flex-start;     /* Centra verticalmente pero con un pequeño espacio arriba */
+    height: 100vh;               /* Ocupa toda la altura de la pantalla */
+    margin: 0;                   /* Asegura que no haya márgenes adicionales */
+    padding: 0;                  /* Elimina padding adicional */
+  }
+  
+  /* Ajuste de la tarjeta (ion-card) */
+  ion-card {
+    width: 70%;                  /* La tarjeta ocupa el 80% del ancho de la pantalla */
+    max-width: 300px;            /* Limita el ancho máximo */
+    box-sizing: border-box;      /* Asegura que el padding no afecte el tamaño */
+    margin: 20px auto;           /* Agrega un margen en la parte superior (y centrado horizontal) */
+  }
+  
+  /* Estilo para la imagen dentro de la tarjeta */
+  ion-card-content img {
+    width: 100%;                 /* La imagen ocupa todo el ancho de la tarjeta */
+    height: auto;                /* Mantiene la proporción de la imagen */
+  }
+  ion-icon{
+    font-size: 40px;
+  }
+  
+
+
+// /* Centrar el contenido dentro de ion-content */
+// .center-content {
+//     display: flex;               /* Activar flexbox */
+//     justify-content: center;     /* Centra horizontalmente */
+//     align-items: center;         /* Centra verticalmente */
+//     height: 100vh;               /* Ocupa toda la altura de la pantalla */
+//     margin: 0;                   /* Asegura que no haya márgenes adicionales */
+//     padding: 0;                  /* Elimina padding adicional */
+//   }
+  
+//   /* Ajuste de la tarjeta (ion-card) */
+//   ion-card {
+    
+//     width: 80%;                  /* La tarjeta ocupa el 80% del ancho de la pantalla */
+//     max-width: 300px;            /* Limita el ancho máximo */
+//     box-sizing: border-box;      /* Asegura que el padding no afecte el tamaño */
+//     margin: 0 auto;              /* Centra la tarjeta horizontalmente */
+//   }
+  
+//   /* Estilo para la imagen dentro de la tarjeta */
+//   ion-card-content img {
+//     width: 100%;                 /* La imagen ocupa todo el ancho de la tarjeta */
+//     height: auto;                /* Mantiene la proporción de la imagen */
+    
+//   }
+  
+
+// ion-content {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+//     padding: 0;
+//   }
+  
+
+// /* Asegúrate de que el contenido ocupe toda la pantalla */
+// .center-content {
+//     display: flex;            /* Usamos Flexbox para alinear el contenido */
+//     justify-content: center;  /* Centra el contenido horizontalmente */
+//     align-items: center;      /* Centra el contenido verticalmente */
+//     height: 100vh;            /* El contenedor ocupará toda la altura de la pantalla */
+//     padding: 0;               /* Elimina cualquier padding adicional */
+//     box-sizing: border-box;   /* Incluye el padding en el cálculo del tamaño total */
+//   }
+  
+//   /* Estilo para la tarjeta */
+//   ion-card {
+//     width: 80%;               /* La tarjeta ocupa el 80% del ancho disponible */
+//     max-width: 500px;         /* Limita el ancho máximo para que no se haga demasiado grande */
+//     box-sizing: border-box;   /* Asegura que padding/margin no afecten el ancho */
+//   }
+  
+//   /* Estilo para la imagen dentro de la tarjeta */
+//   ion-card-content img {
+//     width: 100%;              /* La imagen ocupa todo el ancho del contenedor */
+//     height: auto;             /* Mantiene la proporción de la imagen */
+//   }
+  
+
+
+
+
+
+// /* Alineación del contenido del ion-card a la izquierda */
+// ion-card-content {
+//     // text-align: left; /* Alineación del texto a la izquierda */
+//     align-items: center;
+// }
+
+// /* Alineación del título y otros elementos del ion-card */
+// ion-card-header {
+//     display: flex; 
+//     justify-content: flex-start; /* Alinea los elementos dentro del header a la izquierda */
+//     align-items: start; /* Centra verticalmente los elementos */
+// }
+
+// /* Ajustar la imagen dentro de la tarjeta */
+// img {
+//     width: 100%; /* Ajusta la imagen al ancho del contenedor */
+//     height: auto; /* Mantiene la proporción de la imagen */
+//     max-width: 100%; /* Asegura que la imagen no sobrepase el ancho de su contenedor */
+// }
+
+// /* Estilo para centrar el contenido del ion-content */
+// .center-content {
+//     display: flex;
+//     justify-content: center;  /* Centra horizontalmente */
+//     align-items: center;      /* Centra verticalmente */
+//     height: 100%;             /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+//     padding: 0;               /* Elimina cualquier padding que pueda afectar el centrado */
+//   }
+  
+//   /* Puedes ajustar el tamaño de la tarjeta si lo deseas */
+//   ion-card {
+//     width: 80%;  /* Puedes ajustar el tamaño de la tarjeta según lo necesites */
+//     max-width: 500px; /* Limita el ancho máximo para que no se haga muy grande en pantallas grandes */
+//   }
+  

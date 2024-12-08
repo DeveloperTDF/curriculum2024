@@ -1,0 +1,53 @@
+/* Contenedor de la galería de imágenes */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que las imágenes se ajusten en varias líneas si es necesario */
+    justify-content: flex-start; /* Alinea las imágenes al principio */
+    gap: 10px; /* Espacio entre las imágenes */
+    padding: 10px;
+  }
+  
+  /* Estilo general para las imágenes en la galería */
+  .gallery-image {
+    width: 300px; /* Tamaño pequeño por defecto */
+    height: auto; /* Mantener la proporción de la imagen */
+    cursor: pointer; /* Cambiar a "manito" cuando se pase sobre la imagen */
+    transition: transform 0.3s ease; /* Transición suave */
+  }
+  
+  /* Imagen agrandada en la galería */
+  .large-image {
+    width: 400px; /* Tamaño grande de la imagen */
+    transition: width 0.3s ease, transform 0.3s ease; /* Transición suave para el tamaño */
+    transform: scale(1.2); /* Aumentar ligeramente el tamaño cuando se selecciona */
+  }
+  
+  /* Overlay que cubre la pantalla */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el overlay esté encima de todo */
+  }
+  
+  /* Imagen agrandada en el centro de la pantalla */
+  .enlarged-image {
+    max-width: 90%;  /* Limitar el tamaño máximo de la imagen */
+    max-height: 90vh; /* Limitar la altura máxima a un 90% del alto de la pantalla */
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Cambia el cursor para que se vea interactivo */
+  }
+  
+  .toolbar-title {
+    cursor: pointer; /* Muestra la manito cuando se pasa el mouse */
+  }
+  ion-icon{
+    font-size: 40px;
+  }
+  

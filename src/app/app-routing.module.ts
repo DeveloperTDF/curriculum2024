@@ -11,6 +11,22 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'experiencia',
+    loadChildren: () => import('./experiencia/experiencia.module').then( m => m.ExperienciaPageModule)
+  },
+  {
+    path: 'titulos',
+    loadChildren: () => import('./titulos/titulos.module').then( m => m.TitulosPageModule)
+  },
+  {
+    path: 'informacion',
+    loadChildren: () => import('./informacion/informacion.module').then( m => m.InformacionPageModule)
+  },
+  {
+    path: 'aplicaciones',
+    loadChildren: () => import('./aplicaciones/aplicaciones.module').then( m => m.AplicacionesPageModule)
+  },
 ];
 
 @NgModule({
