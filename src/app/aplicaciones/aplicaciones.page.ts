@@ -24,12 +24,14 @@ export class AplicacionesPage implements OnInit {
       titulo:'aplicacion para gestion de tareas de un afiliado',
       subtitulo:'link de descarga del codigo  ',
       repositorio:'https://github.com/DeveloperTDF/afiliadoFront.git',
+      url:'https://github.com/DeveloperTDF/afiliadoFront.git',
 
     } ,
     {
       titulo:'aplicacion basica para hacer anotaciones',
       subtitulo:'link de descarga del codigo  ',
       repositorio:'https://github.com/DeveloperTDF/anotadorFrontend.git',
+      url:'https://github.com/DeveloperTDF/anotadorFrontend.git',
 
     } 
     ,
@@ -37,6 +39,7 @@ export class AplicacionesPage implements OnInit {
       titulo:'aplicacion para la gestion de polivalencias de una fabrica',
       subtitulo:'link de descarga del codigo ',
       repositorio:'https://github.com/DeveloperTDF/polivalencias.git',
+      url:'https://github.com/DeveloperTDF/polivalencias.git',
 
     } 
     
