@@ -1,0 +1,21 @@
+{
+    "name": "Curriculum",
+    "short_name": "CURRICULUM VITAE",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#317EFB",
+    "icons": [
+      {
+        "src": "/icons/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/icon-large.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
